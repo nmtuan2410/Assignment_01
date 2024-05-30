@@ -1,18 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
-
 import pandas as pd
-from datetime import datetime
 from datetime import datetime
 from sqlalchemy import create_engine
 import datetime as dt
-
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-
-
 
 def extract_transform():
     chrome_options = Options()
