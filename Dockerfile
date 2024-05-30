@@ -7,8 +7,6 @@ RUN apt update \
     && apt-get install -y ./google-chrome-stable_current_amd64.deb
 
 WORKDIR /opt/airflow/
-
-
 COPY . .
 
 RUN pip3 install --no-cache-dir -r requirements.txt
