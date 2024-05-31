@@ -3,4 +3,4 @@
 - Use Selenium crawl price, volume data vn30f1m from website: https://banggia.vps.com.vn/chung-khoan/derivative-VN30
 - Push it into AWS RDS
 
-! [screenshot](img/data.PNG)
+![screenshot](img/data.PNG)
